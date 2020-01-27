@@ -9,7 +9,7 @@ You will need [Leiningen][] 2.0.0 or above installed.
 [leiningen]: https://github.com/technomancy/leiningen
 
 A MySQL database is needed too with this table:
-`
+```
 CREATE DATABASE todo;
 
 CREATE TABLE items (
@@ -18,7 +18,7 @@ CREATE TABLE items (
   description varchar(255),
   primary key (id)
 );
-`
+```
 
 
 ## Running
